@@ -1,0 +1,377 @@
+/* header code starting  */
+
+*{  margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+.header-file{ 
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7px;
+    
+
+}
+.first-header {  
+    width: 87%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.item-box2{ 
+    width: 13%;
+    padding-right: 2px;
+
+}
+
+.img{ 
+    width: 55%;
+    padding-left: 200px;
+}
+
+.img a img  { 
+
+    width: 100px;
+}
+
+.item-box  {
+    width: 45%; 
+
+}
+
+
+.item-box ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.item-box2 ul { 
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bold;
+}
+.item-box ul li a ,.item-box2 ul li a  { 
+    text-decoration: none ;
+    color: black;
+}
+
+
+/* main section start from there  */
+.banner-controlar{ 
+    position: relative; 
+
+}
+.banner-text{ 
+    position: absolute;
+    top: 155px;
+    left: 100px;
+
+
+}
+.banner-text{  
+    font-size: 30px;
+}
+.Mission{ 
+     font-size: 20px;
+}
+.Join{ 
+
+    position: absolute;
+    top: 250px;
+    left: 140px; }
+    .laptop{  
+        position: absolute;
+        top: 120px ;
+        left: 700px;
+   } 
+   .laptop iframe   { 
+        width: 628px;
+        position: absolute;
+        left: 82px;
+        top: 23px;
+
+   }
+   .laptop img { 
+       width: 800px ;
+   }
+ .banner img { 
+    width: 100%;
+    height: 600px;
+ }
+
+   /* coding part of banner below  */
+    
+    .Join a{
+       font-size: 20px;
+       text-decoration: none white;
+       background-color: rgb(44, 181, 212);
+       padding: 9px;
+       border-radius: 4px; }
+
+
+       .banner-below{ 
+        display: flex;
+        justify-content: center;
+        padding: 20px 0px 20px 0px ;
+     } 
+     .below-center { 
+        width: 57%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+
+    
+     } 
+     .below-center li { 
+        list-style: none;
+     }
+
+     /* <!-- starting date and link of course  */
+     .banner-below2 {
+        background: rgb(162 190 237 / 97%);
+        color: white;
+        height: 183px;
+        padding-left:  555px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .below-1stpart{  
+         font-size: 25px;
+      }
+      .Start-learn-button { 
+        padding-top: 38px;
+    padding-left: 82px;
+}
+      
+        
+      .Start-learn-button a { 
+        border-radius: 9px;
+        background: rgb(98, 98, 232);
+        padding: 10px;
+        
+      }
+
+
+/* code of why .why-Delta */
+      .why-Delta{ 
+        color: rgb(69, 62, 62);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px 1px 12px 448px;
+
+    }
+
+
+    /* code of why delta reasons  */
+    
+
+    .why-Delta-1{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        height: 251px;
+        align-items: center;
+    
+        
+    }
+    
+    .frontend{ 
+         width: 30%;
+         background-color: white;
+         left: 167px;
+         height: 172px;
+         box-shadow: 2px 5px 5px rgb(225, 243, 182);
+    }
+     .frontend , .Backend , .React { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid white 1px;
+        border-radius: 15px;
+     }
+    .Backend{ 
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+       
+        left: 539px;
+        height: 172px;
+        box-shadow: 2px 5px 5px rgb(6, 6, 6);
+    } 
+    .React{ 
+        width: 30%;
+        background-color: rgb(251, 252, 255);
+        
+        right: 246px;
+        height: 172px;
+        box-shadow: 2px 6px 3px #6ab1ef;
+    } 
+
+    .Delta-1-controlar{ 
+        background-color: aliceblue;
+    
+    }
+     
+
+
+    .Delta-2-controlar { 
+         background-color: aliceblue ;
+         height: 251px;
+         
+    }
+     .why-Delta-2 { 
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 75%;
+        text-align: center;
+        align-items: center;
+        
+     }
+
+     .Database{ 
+        width: 30%;
+         background-color: white;
+         left: 167px;
+         height: 175px;
+         box-shadow: 2px 5px 5px rgb(242, 27, 70);
+
+     }
+
+     
+
+     .Projects { 
+        width: 32%;
+        background-color: rgb(247, 246, 246);
+       
+        left: 539px;
+        height: 175px;
+        box-shadow: 2px 5px 5px rgb(241, 101, 32);
+    
+
+     }
+     .Open-Source { 
+        width: 30%;
+        background-color: rgb(251, 252, 255);
+        
+        right: 246px;
+        height: 175px;
+        box-shadow: 2px 6px 3px #08d126;
+
+     }
+     .Database , .Projects , .Open-Source{ 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border: solid white 1px;
+        align-items: center;
+        border-radius: 15px;
+
+
+
+     }
+
+     /* why detla below part  */
+     .Advantages{ 
+        font-size: 23px;
+        padding: 23px 21px 54px 667px;
+     } 
+      .Advantages-pic-2 img , .Advantages-pic-1 img { 
+        width: 100%;
+        height: 615px;
+     }
+
+/* code of palecment cell  */
+
+.palcemenet-cell{ 
+    background-color: rgb(205, 235, 254) ;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 19px;
+  }
+  .palcemenet-cell-pragraph  p { 
+    font-size: 35px;
+    padding-top: 12px;
+    font-family: "Barlow";
+
+     
+  }
+  .palcemenet-cell-imgs-1 { 
+    display: flex; 
+    justify-content: center;
+    gap:  50px;
+       
+  }
+  .palcemenet-cell-imgs-1  img{ 
+    width: 120px;
+
+     
+  }   
+
+  .img-1 ,.img-2 { 
+     width: 20%;
+    
+  
+  }
+
+
+
+  
+
+  /* learning section what students are learn in this code  */
+    
+  .what-you-learn{ 
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 270px;
+  }
+
+  .what-you-learn-1 { 
+     width: 30%;
+     
+
+  }
+  .what-you-learn-1 h3{ 
+
+    color: #91349b;
+
+
+  }
+  .what-you-learn-1 ul li { 
+     display: flex;
+     align-items: center;
+  }
+  .what-you-learn-1 ul { 
+    list-style: none;
+  }
+  .what-you-learn-2{ 
+     display: flex;
+     justify-content: space-between;
+     width: 50%;
+  }
+
+  .what-you-learn-mini-1{ 
+     width: 40%;
+  }
+  .what-you-learn-mini-2{ 
+     width: 40%;
+  }
+
+  .what-you-learn-mini-1 span  , .what-you-learn-mini-2 span { 
+    color: rgb(165, 72, 253);
+    padding-top: 5px;
+  }
+
+    
+
+

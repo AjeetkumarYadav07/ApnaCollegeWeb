@@ -1,0 +1,31 @@
+/* in this line we style header  */
+.item-1  li :hover {     
+    border-bottom: turquoise 3px  solid;
+    padding: 1px;
+}
+
+/* .item-box2 ul li {
+    background-color: blueviolet ;
+    border-radius: 10px;
+    padding: 7px;
+} */
+.item-box2 ul li a {
+    font-size: 20px;
+    text-decoration: none white;
+    background-color: blueviolet;
+    padding: 7px;
+    border-radius: 6px; }
+
+
+.item-box2 ul li :hover{
+    background-color: purple;
+    
+    color: white;
+    padding: auto;
+}
+
+.Joinbtn :hover{
+   background: #000;
+   color: white;
+   border-radius: 10px;
+}
